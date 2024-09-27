@@ -1,0 +1,50 @@
+.app{
+    width: 1440px;
+    height: 4096px;
+}
+.home{
+    width: 1440px;
+    height: 915px;
+}
+.Banner{
+    width: 1440px;
+    height: 532px;
+    margin-top: 252px;
+}
+.Serviços{
+    width: 1440px;
+    height: 659px;
+    margin-top: 917px;
+}
+.h1{
+    width: 294px;
+    height: 55px;
+    margin-bottom: 105px;
+    margin-bottom: 145px;
+    font-family: Montserrat;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 67.05px;
+    text-align: left;
+        
+}
+.p1{
+    width: 1146px;
+    height: 318px;
+    margin-top: 235px;
+    margin-left: 149px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.26px;
+    text-align: left;
+    font-weight: 700;
+    line-height: 29.26px;
+            
+}
+.Produtos{
+    width: 1440px;
+    height: 1126px;
+    margin-top: 1573px;
+    
+}
