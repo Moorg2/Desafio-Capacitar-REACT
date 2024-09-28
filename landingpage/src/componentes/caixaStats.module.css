@@ -1,0 +1,52 @@
+.caixa {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 65px 60px;
+    gap: 10px;
+    position: absolute; /* Ajuste conforme necessário */
+    width: 1146px;
+    height: 220px;
+    left: 147px;
+    top: 906px;
+    background: #FF6F61;
+}
+
+.itens {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 220px; /* Espaço entre os itens */
+    width: 100%; /* Preenche a largura disponível */
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+}
+
+.numero {
+    width: 215px;
+    height: 62px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #ECF0F1;
+    text-align: center; /* Centraliza o texto */
+}
+
+.descricao {
+    width: 215px;
+    height: 18px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ECF0F1;
+    text-align: center; /* Centraliza o texto */
+}

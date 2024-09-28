@@ -14,12 +14,12 @@
 .servicos {
     width: 1440px;
     height: 659px;
-    margin: 0 auto; /* Centraliza horizontalmente */
     padding: 0px 30px; /* Espaçamento interno */
 }
 
 .h1 {
-    margin-left: 145px;
+    margin-left: 120px;
+    text-align: left;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 55px;
@@ -29,7 +29,8 @@
 }
 
 .p1 {
-    margin-left: 145px;
+    margin-left: 120px;
+    text-align: left;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 24px;
@@ -37,18 +38,124 @@
     color: #000000;
 }
 
-.Produtos{
-    max-width: 1440px;
-    margin: 0 auto; /* Centraliza */
-    padding: 100px 30px;
-    background: rgba(26, 188, 156, 1);
+.titulo{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 67.05px;
+    color: rgba(236, 240, 241, 1);
 }
-.h2{
-    font-family: 'Montserrat', sans-serif;
+.produtos {
+    text-align: center;
+    background: rgba(26, 188, 156, 1);
+    width: 1440px;
+    height: 1126px;
+    padding-top: 40px;
+}
+
+.caixa {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaço entre os produtos */
+    margin: 0 auto;
+}
+
+
+.Contato {
+    position: relative; /* Altere para relative */
+    width: 1440px;
+    padding: 40px 0; /* Espaçamento interno */
+    margin-top: 40px; /* Espaçamento externo */
+    text-align: left; /* Alinha textos à esquerda */
+}
+
+.h2 {
+    font-family: 'Montserrat';
     font-weight: 700;
     font-size: 55px;
     line-height: 67px;
-    color: #ECF0F1;
-    text-align: center; /* Centraliza o título */
-    margin-bottom: 40px; /* Espaço abaixo do título */
+    color: #FF6F61;
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    margin-left: 127px;
+}
+.Contato {
+    position: relative;
+    width: 1440px;
+    padding: 40px 0; /* Espaçamento interno */
+    margin-top: 40px; /* Espaçamento externo */
+    text-align: left; /* Alinha textos à esquerda */
+}
+
+.h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    color: #FF6F61;
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+.Contato {
+    position: relative;
+    width: 1440px;
+    padding: 40px 0; /* Espaçamento interno */
+    margin-top: 40px; /* Espaçamento externo */
+    text-align: left; /* Alinha textos à esquerda */
+}
+
+.contato-item {
+    display: flex; /* Usar flexbox para alinhar itens */
+    margin-top: 20px; /* Espaço entre os itens */
+    margin-left: 227px;
+}
+
+.telefone, .Email {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: #FF6F61; /* Cor dos títulos */
+}
+
+.numero, .contato {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000; /* Cor dos detalhes */
+    margin-left: 10px; /* Espaço entre título e valor */
+}
+
+.Rodape{
+    width: 1440px;
+    height: 442px;
+    border-top: 5px solid rgba(26, 188, 156, 1);
+    display:flex;
+}
+.Logo{
+    width: 354.89px;
+    height: 267px;
+    margin-top: 61px;
+    margin-left: 53px;
+
+
+}
+.Links{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 42.67px;
+    color: rgba(26, 188, 156, 1);
+    width: 264px;
+    height: 50px;
+    top: 61px;
+    margin-left: 200px;
+}
+
+.p3{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 65px;
+    color: rgba(26, 188, 156, 1);
+    
 }
