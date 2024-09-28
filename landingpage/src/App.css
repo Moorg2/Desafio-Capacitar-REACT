@@ -7,44 +7,48 @@
     height: 915px;
 }
 .Banner{
-    width: 1440px;
+    width: fill;
     height: 532px;
     margin-top: 252px;
 }
-.Serviços{
+.servicos {
     width: 1440px;
     height: 659px;
-    margin-top: 917px;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 0px 30px; /* Espaçamento interno */
 }
-.h1{
-    width: 294px;
-    height: 55px;
-    margin-bottom: 105px;
-    margin-bottom: 145px;
-    font-family: Montserrat;
+
+.h1 {
+    margin-left: 145px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 55px;
-    font-weight: 700;
-    line-height: 67.05px;
-    text-align: left;
-        
+    line-height: 67px;
+    color: #000000;
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
 }
-.p1{
-    width: 1146px;
-    height: 318px;
-    margin-top: 235px;
-    margin-left: 149px;
-    font-family: Montserrat;
-    font-size: 24px;
+
+.p1 {
+    margin-left: 145px;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    line-height: 29.26px;
-    text-align: left;
-    font-weight: 700;
-    line-height: 29.26px;
-            
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
 }
+
 .Produtos{
-    width: 1440px;
-    height: 1126px;
-    margin-top: 1573px;
-    
+    max-width: 1440px;
+    margin: 0 auto; /* Centraliza */
+    padding: 100px 30px;
+    background: rgba(26, 188, 156, 1);
+}
+.h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    color: #ECF0F1;
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 40px; /* Espaço abaixo do título */
 }

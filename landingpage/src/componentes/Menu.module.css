@@ -1,0 +1,26 @@
+.Menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Adiciona espaço entre logo e menu */
+    padding: 10px 30px; /* Ajuste o espaçamento conforme necessário */
+    background-color: rgb(255, 255, 255); /* Cor de fundo */
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 50px; /* Espaço entre os itens do menu */
+}
+
+.item {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #1ABC9C; /* Cor dos textos */
+}
+
+.bolsa {
+    width: 60px; /* Ajuste conforme necessário */
+    height: 60px; /* Ajuste conforme necessário */
+}

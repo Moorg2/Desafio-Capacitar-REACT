@@ -1,0 +1,51 @@
+.card {
+    background: #ECF0F1;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-width: 250px;
+    max-width: 400px;
+}
+
+.foto {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.informacoes {
+    text-align: center;
+}
+
+.titulo-produto {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+}
+
+.preco {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+}
+
+.descricao {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+
+.botao {
+    background: #FF6F61;
+    border-radius: 50px;
+    padding: 10px 15px;
+    color: #ECF0F1;
+    border: none;
+    cursor: pointer;
+}

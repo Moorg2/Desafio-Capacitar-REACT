@@ -1,0 +1,26 @@
+/* TopBar.module.css */
+
+.Bar {
+    width: 1440px;
+    height: 84px;
+    background: rgba(26, 188, 156, 1);
+    display: flex; /* Adiciona um layout flexível */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 0 30px; /* Adiciona espaçamento horizontal */
+}
+
+.endereço {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px; /* Corrigido */
+    color: rgba(255, 255, 255, 1);
+    margin-left: 10px; /* Espaçamento entre o ícone e o texto */
+}
+
+.redes{
+  
+    margin-left: auto; /* Isso empurra a imagem para a direita */
+    margin-right: 20px; /* Margem à direita para dar espaço */
+
+}
