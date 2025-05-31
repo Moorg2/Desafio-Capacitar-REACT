@@ -1,26 +1,39 @@
 import React from 'react';
-import styles from './caixaStats.module.css'; // Importe o CSS
+import PropTypes from 'prop-types';
+import styles from './CaixaStats.module.css';
 
-export default function caixaStats() {
-    return (
-        <section>
-            <div className={styles.caixa}>
-                <h1 className={styles.titulo}>Nossos Produtos</h1>
-                <div className={styles.itens}>
-                    <div className={styles.item}>
-                        <h2 className={styles.numero}>+ 1000</h2>
-                        <p className={styles.descricao}>Produtos disponíveis</p>
-                    </div>
-                    <div className={styles.item}>
-                        <h2 className={styles.numero}>+ 15</h2>
-                        <p className={styles.descricao}>Anos de história</p>
-                    </div>
-                    <div className={styles.item}>
-                        <h2 className={styles.numero}>99%</h2>
-                        <p className={styles.descricao}>Satisfação Garantida</p>
-                    </div>
-                </div>
+const CaixaStats = ({ titulo = "Nossos Produtos", stats }) => {
+  const dadosStats = stats || [
+    { valor: "+ 1000", descricao: "Produtos disponíveis" },
+    { valor: "+ 15", descricao: "Anos de história" },
+    { valor: "99%", descricao: "Satisfação Garantida" }
+  ];
+
+  return (
+    <section className={styles.section} aria-label="Estatísticas da empresa">
+      <div className={styles.caixa}>
+        <h1 className={styles.titulo}>{titulo}</h1>
+        <div className={styles.itens}>
+          {dadosStats.map((item, index) => (
+            <div key={`stat-${index}`} className={styles.item}>
+              <h2 className={styles.numero}>{item.valor}</h2>
+              <p className={styles.descricao}>{item.descricao}</p>
             </div>
-        </section>
-    );
-}
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+CaixaStats.propTypes = {
+  titulo: PropTypes.string,
+  stats: PropTypes.arrayOf(
+    PropTypes.shape({
+      valor: PropTypes.string.isRequired,
+      descricao: PropTypes.string.isRequired
+    })
+  )
+};
+
+export default React.memo(CaixaStats);
